@@ -1,2 +1,2 @@
-#blog
-this is the website for blogs
+#blog <br>
+ website for blog lovers
