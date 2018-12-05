@@ -17,7 +17,24 @@
         height: 70%;
         margin: 0;
         padding: 0;
+        font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
       }
+      .bg-grey {
+    background-color: #f6f6f6;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.container-fluid {
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+h2.text-center{
+   
+}
     </style>
   </head>
   <body>
@@ -66,55 +83,37 @@
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+
     </script>
-    <div class="card">
- <div class="row move">
-    <div class="col-md-12 col-md-offset-3" id="form_container">
-        <h2>Contact Us</h2>
-        <p>
-           Please send your message below. We will get back to you at the earliest!
-        </p>
-        <form role="form" method="post" id="reused_form">
-
-            <div class="row">
-                <div class="col-sm-12 form-group">
-                    <label for="message">
-                        Message:</label>
-                    <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <label for="name">
-                        Your Name:</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                    <label for="email">
-                        Email:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-12 form-group">
-                    <button type="submit" class="btn btn-lg btn-default" style="float:right">Send →</button>
-                </div>
-            </div>
-
-        </form>
-        <div id="success_message" style="width:100%; height:100%; display:none; ">
-            <h3>Posted your message successfully!</h3>
-        </div>
-        <div id="error_message"
-                style="width:100%; height:100%; display:none; ">
-                    <h3>Error</h3>
-                    Sorry there was an error sending your form.
-
-        </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <div class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <h3><b>Contact us and we'll get back to you within 24 hours.</b></h3>
+      <h4><span class="glyphicon glyphicon-map-marker"></span> j&k, INDIA</h4>
+      <h4><span class="glyphicon glyphicon-phone"></span> +00 1515151515</h4>
+      <h4><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</h4> 
     </div>
-</div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
 </div>
 <!--Section: Contact v.2-->
 <?php
