@@ -15,7 +15,7 @@
 }
 img.d-block{
 
-    height:400px;
+ height:400px;
 }
 .jumbotron{
     text-align: center;
@@ -165,4 +165,6 @@ img.d-block{
     }
   }   
  
-   
+   .bg{
+    /* background:linear-gradient(to bottom, #171a1c, #73808c); */
+   }
