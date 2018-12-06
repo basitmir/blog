@@ -4,7 +4,7 @@
   ?>
   <style>
   .jumbotron{
-  background-image: url("../imgs/blog 3.jpg");
+  background-image: url("imgs/blog 3.jpg");
   background-size: cover;
   height:auto;
   
