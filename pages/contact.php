@@ -12,6 +12,11 @@
       #map {
         height: 100%;
       }
+      .navbar {
+        margin-bottom: 0px !important;
+   
+    
+}
       /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 70%;
@@ -48,7 +53,8 @@ h2.text-center{
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 34.083656, lng: 74.797371},
-          zoom: 6
+          zoom: 14,
+          
         });
         infoWindow = new google.maps.InfoWindow;
 
@@ -82,7 +88,7 @@ h2.text-center{
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9etM9rqnYas63ypURAkvEFn_W_sU0NM4&callback=initMap">
 
     </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -94,7 +100,7 @@ h2.text-center{
     <div class="col-sm-5">
       <h3><b>Contact us and we'll get back to you within 24 hours.</b></h3>
       <h4><span class="glyphicon glyphicon-map-marker"></span> j&k, INDIA</h4>
-      <h4><span class="glyphicon glyphicon-phone"></span> +00 1515151515</h4>
+      <h4><span class="glyphicon glyphicon-phone"></span> +91 7889567946</h4>
       <h4><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</h4> 
     </div>
     <div class="col-sm-7">

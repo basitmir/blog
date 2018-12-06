@@ -171,11 +171,12 @@ img.d-block{
   
    .jumbotron .jumbotron1{
        height:10px;
+       
       text-shadow: 4px 4px 5px white;
        margin:0;
    }
  .blogname{
-   font-size: 30px;
+   /* font-size: 10px !important;  */
    text-align: center;
  }
  .card{
@@ -185,4 +186,4 @@ img.d-block{
      display: block;   
 
  }
-    
+   
