@@ -1,7 +1,7 @@
 <h1>Iblog</h1> <br>
 <div align="center">
  <h3>[Watch the demo]</h3>
-  <a href="https://youtu.be/Y6b_ui7dNpY"><img src="screenshot.png" height="100"></a>
+  <a href="https://www.youtube.com/embed/Y6b_ui7dNpY"><img src="imgs/home.png" height="270" width="480"></a>
 </div>
 <h3>Vist : <a href="http://ibloog.co.nf/">Iblog</a>
 <h6>web Application for blog lovers</h6><br>
